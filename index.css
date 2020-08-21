@@ -1,0 +1,245 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* font-size: 5vw; */
+}
+
+ul {
+  list-style: none;
+}
+
+#wrap {
+  padding-bottom: 700px;
+  min-height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+#navigation {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+div.bg {
+  display: block;
+  height: 300px;
+  bottom: 117px;
+  background-image: url(https://picsum.photos/);
+  background: no-repeat center;
+  background-size: cover;
+  position: fixed;
+  z-index: 2;
+}
+
+.bg img {
+  max-width: 500%;
+  width: 300%;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 12px solid white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 98.5vh;
+  text-align: left;
+  color: white;
+  background: linear-gradient(to top right, blue, pink);
+  /* margin-bottom: 12px; */
+  border-bottom: 1.8vw solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerTitle {
+  width: 80%;
+  height: 32%;
+  padding: 3em 0;
+  font-size: 20vw;
+  /* line-height: 3em; */
+}
+
+.products {
+  padding: 5px 0 2.3vw;
+  background: white;
+  width: 100%;
+}
+
+.products li {
+  border: 1px solid black;
+  margin-bottom: 2.2vw;
+  height: 200px;
+  background-color: cadetblue;
+}
+
+.news {
+  padding: 26px 7%;
+  background-color: #f2f2f2;
+}
+
+.newsList {
+  margin: 0 auto;
+  position: relative;
+  height: 1000px;
+}
+
+.newsList li {
+  /* position: absolute; */
+  left: 0;
+  top: 0;
+  margin-bottom: 20px;
+  height: 200px;
+  background-color: chocolate;
+}
+
+footer {
+  width: 100%;
+  background-color: red;
+  height: 195px;
+  line-height: 1;
+  padding-top: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
